@@ -1,0 +1,15 @@
+{
+  "name": "@cakasim/shortener",
+  "version": "0.1.0",
+  "description": "A simple URL shortener.",
+  "keywords": ["shortener", "shortlink", "shorten", "url", "link"],
+  "homepage": "https://github.com/Cakasim/shortener",
+  "bugs": {
+    "url": "https://github.com/Cakasim/shortener/issues",
+    "email": "bugs@cakasim.de"
+  },
+  "license": "MIT",
+  "author": "Fabian Böttcher <me@cakasim.de> (https://cakasim.de)",
+  "main": "index.js",
+  "repository": "github:Cakasim/shortener"
+}
