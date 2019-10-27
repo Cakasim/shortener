@@ -25,6 +25,7 @@
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
+    "@types/node": "^12.11.7",
     "mocha": "^6.2.2"
   }
 }
