@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - node
+sudo: false
+cache: yarn
+before_install:
+  - yarn install
+  - yarn build
+script:
+  - yarn test
