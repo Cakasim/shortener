@@ -14,5 +14,8 @@
   "repository": "github:Cakasim/shortener",
   "dependencies": {
     "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
   }
 }
