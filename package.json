@@ -11,5 +11,8 @@
   "license": "MIT",
   "author": "Fabian Böttcher <me@cakasim.de> (https://cakasim.de)",
   "main": "index.js",
-  "repository": "github:Cakasim/shortener"
+  "repository": "github:Cakasim/shortener",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
