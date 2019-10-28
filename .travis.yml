@@ -6,6 +6,9 @@ cache: yarn
 before_install:
   - yarn install
   - yarn build
+before_script:
+  - if [ -d ".nyc_output" ]; then rm -Rf .nyc_output; fi
+  - if [ -d "coverage" ]; then rm -Rf coverage; fi
 script:
   - yarn test:coverage
 after_success:
