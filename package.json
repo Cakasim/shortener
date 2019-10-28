@@ -20,7 +20,7 @@
   "repository": "github:Cakasim/shortener",
   "scripts": {
     "test": "mocha",
-    "test:coverage": "tsc && nyc --reporter=lcov --reporter=text mocha",
+    "test:coverage": "nyc --reporter=lcov --reporter=text mocha",
     "build": "tsc"
   },
   "dependencies": {
